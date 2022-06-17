@@ -1,7 +1,9 @@
 # Head-Pose-Estimation
 Estimate the head pose in yaw, pitch and roll
 
-Steps followed:
+## Steps followed:
+
+
 1- Getting Face landmarks by Mediapipe and create features dataset.
 2- Cropping Images to create another dataset with just a face.
 3- Making pipeline to Normalize data using standard scalar then dimentionality reduction using pca and the model.
